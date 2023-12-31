@@ -27,7 +27,7 @@ function Offering() {
         <div className=' bg-pink-600 ml-12 rounded-tl-2xl w-80 h-96 flex flex-col' >
             <p className='text-6xl  text-white  pt-4 pl-4 font-bold'>HEALTHY MEALS</p>
             <img className='flex mb-1 py-6' src={Privilegemeal}/>
-        </div>
+        </div>  
         
     </div>
    
