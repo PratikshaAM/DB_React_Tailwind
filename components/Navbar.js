@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../assets/logo.png';
 function Navbar() {
   return (
+    <>
     <div className='navbar flex  h-16 w-full justify-between px-2 '>
         <div className='LeftSide justify-items-start'>
             <img className='h-11 ml-9 mt-1  ' src={Logo}/>
@@ -20,6 +21,10 @@ function Navbar() {
         
         </div>
     </div>
+
+    
+
+    </>
     
 
   )

@@ -3,6 +3,7 @@ import Main from '../assets/main.png';
 
 function Home() {
   return (
+    <>
    <div className=" w-full h-96 flex justify-between bg-orange-600  ">
       <div className='flex flex-col'>
       <p className=' text-8xl text-white font-extrabold ml-5 pt-12'>CHOOSE RIGHT,
@@ -16,6 +17,8 @@ function Home() {
       <img className='max-h-fit' src={Main} alt="main img"/>
       
    </div>
+   
+   </>
   )
 }
 
